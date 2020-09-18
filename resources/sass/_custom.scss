@@ -1,0 +1,34 @@
+.feed_item{
+    position: relative;
+    padding: 0;
+    .card-body{
+        padding: 0;
+        .feed_caption{
+            bottom: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, .4);
+            position: absolute;
+            padding: 15px;
+            width: 100%;
+            color: #fff;
+            height: 0;
+            overflow: hidden;
+            visibility: hidden;
+            opacity: 0;
+            transition: max-height, opacity .3s;
+        }
+
+        &:hover{
+            .feed_caption{
+                height: auto;
+                visibility: visible;
+                opacity: 1;
+            }
+        }
+    }
+
+
+
+
+
+}

@@ -1,0 +1,17 @@
+.post_item{
+    position: relative;
+    /*margin-right: 1.5rem;*/
+}
+
+.delete_post{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+.delete_post:hover svg{
+    color: #000;
+}
+
+.delete_post > svg {
+    color: #444;
+}
